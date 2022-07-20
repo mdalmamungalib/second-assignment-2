@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightslategray;
+}
+/*---------------- 
+    top-header-start
+------------------ */
+#top-header{
+    border: 1px solid red;
+    border: none;
+    border-radius: 30px;
+    width: 1321px;
+    height: 614px;
+    background-color: #161616;
+    color: #ffffff;
+    margin-left: 290px;
+    margin-top: 70px;
+}
+.top-banner{
+    display: flex;
+}
+.header-info{
+    margin-left: 100px;
+}
+.header-info h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+.header-info p{
+    font-size: 16px;
+}
+.top-header-button{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    border: 1px solid green;
+    border: none;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-images img{
+    width: 581px;
+    height: 613px;
+    margin-right: 130px;
+}
+
+
+/*---------------- 
+    top-header-end
+------------------ */
+
+/* ---------------------
+    about-match-start
+---------------------- */
+.about-match{
+    border: 1px solid #00ff55;
+    border: none;
+    border-radius: 10px;
+    background-color: #161616;
+    width:312px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    /* /* margin-left: 130px;  */
+    
+    
+}
+.three-button{
+    border: 1px solid red;
+    border: none;
+    border-radius: 10px;
+    width: 240px;
+    height: 60px;
+    background-color: lightslategray;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    
+}
+.three-button:hover{
+    background-color: tomato;
+}
+/* ---------------------
+    about-match-end
+---------------------- */
+
+/* -----------------------
+    transfer-live-start
+------------------------ */
+.about-match{
+    margin-top: 130px;
+    margin-left: 300px;
+    margin-right: 20px;
+}
+.transfer-right-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 130px;
+    
+}
+.transfer-box{
+    display: flex;
+}
+.transfer{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #5f6865;
+    width: 312px;
+    
+    
+}
+.transfer:hover{
+    background-color: #161616;
+    color: white;
+}
+.transfer-button{
+    width: 80px;
+    height: 30px;
+    background-color: #ad9191;
+    border-radius: 5px;
+    
+}
+.transfer-button a{
+    text-decoration: none;
+    color:black
+}
+.transfer-button:hover{
+    background-color: tomato;
+    
+}
+span{
+    cursor: pointer;
+}
+
+
+
+/* -----------------------
+    transfer-live-end
+------------------------ */
+
+/* ---------------------
+    footer-stard
+------------------------ */
+footer{
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    width: 1902px;
+    height: 444px;
+    left: 0px;
+    top: 1700px;  
+}
+footer h1{
+    text-align: center;
+    margin-top: 120px;
+}
+
+footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+}
+footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+footer .social a:hover{
+    opacity: 0.9;
+    color: #5f6865;
+}
+hr{ 
+    margin-left: 120px;
+    margin-right: 120px;
+   
+    
+}
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+footer ul li{
+    margin-top: 40px;
+    display: inline-block;
+    padding: 0 15px;
+}
+footer ul li:hover{
+    color: #5f6865;
+}
+
+@media screen {
+    
+}
+/* ---------------------
+    footer-end
+------------------------ */
