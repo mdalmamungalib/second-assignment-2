@@ -43,12 +43,13 @@ body{
     border-radius: 10px;
     background-color: tomato;
 }
+.top-header-button a:hover{
+    color: lightslategray;
+}
+
 button a{
     text-decoration: none;
     color: #ffffff;
-}
-.top-header-button a:hover{
-    color: lightslategray;
 }
 .header-images img{
     width: 581px;
@@ -111,41 +112,37 @@ button a{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 130px;
-    
+    /* margin-left: 320px; */
 }
 .transfer-box{
     display: flex;
 }
+
+
 .transfer{
+    height: 230px;
+    padding-top: 50px;
+    text-align: center;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #5f6865;
     width: 312px;
-    
-    
 }
 .transfer:hover{
     background-color: #161616;
     color: white;
 }
-.transfer-button{
-    width: 80px;
-    height: 30px;
-    background-color: #ad9191;
-    border-radius: 5px;
+
+.transfer span{
+    font-size: 50px;
+}
+
+
+
+
     
-}
-.transfer-button a{
-    text-decoration: none;
-    color:black
-}
-.transfer-button:hover{
-    background-color: tomato;
-    
-}
-span{
-    cursor: pointer;
-}
+
+
 
 
 
@@ -163,7 +160,7 @@ footer{
     width: 1902px;
     height: 444px;
     left: 0px;
-    top: 1700px;  
+    top: 1590px;  
 }
 footer h1{
     text-align: center;
@@ -219,9 +216,8 @@ footer ul li:hover{
     color: #5f6865;
 }
 
-@media screen {
-    
-}
+
 /* ---------------------
     footer-end
 ------------------------ */
+
