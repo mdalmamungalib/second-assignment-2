@@ -47,6 +47,9 @@ button a{
     text-decoration: none;
     color: #ffffff;
 }
+.top-header-button a:hover{
+    color: lightslategray;
+}
 .header-images img{
     width: 581px;
     height: 613px;
